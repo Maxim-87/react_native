@@ -58,6 +58,9 @@ export default function App() {
         <View style={styles.button}>
           <Button color={'#86b300'} title={'Add task'} onPress={addTask}/>
         </View>
+        <View style={styles.button}>
+          <Button color={'#86b300'} title={'Add task'} onPress={addTask}/>
+        </View>
         <View style={styles.tasks_block}>
             {tasks.map(t => <View style={styles.task_container} key={t.id}>
               <Text>{t.title}</Text>
